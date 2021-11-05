@@ -1,0 +1,44 @@
+
+.resumen-cita{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.resumen-todo{
+    .total{
+        text-align: right!important;
+    }
+
+    p{
+        text-align: start!important;
+        span{
+            color: $rojo;
+            font-weight: $bold;
+            font-size: 2.5rem;
+        }
+    }
+}
+
+.resumen-servicios{
+    
+
+    .contenedor_servicios{
+
+        margin-bottom: 2rem;
+        padding-bottom: 0rem;
+        border-bottom: 1px solid $blanco;
+        .precio{
+            font-weight: $bold;
+            font-size: 2.5rem;
+            color: $rojo;
+        }
+    }
+}
+
+.mensaje-error{
+    text-align: center;
+    color: $blanco;
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
+

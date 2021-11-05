@@ -1,0 +1,42 @@
+html{
+    background-color: $negro;
+}
+
+.contenedor-estetica{
+    @include tablet{
+        @include grid(2, 2.5rem);
+    }
+    
+    height: 100vh;
+
+        .imagen{
+            height: 30rem;
+            background-image: url(https://raw.githubusercontent.com/OHincapie/Salon-De-Belleza/main/build/img/1.webp);
+            background-size: cover;
+            background-position: center center;
+            @include tablet{
+                height: auto;
+            }
+        }
+    
+
+}
+.app{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 3rem ;
+
+    .seccion{
+        display: none;
+        
+        p{
+            text-align: center;
+        }
+
+        
+    }
+}
+
+.mostrar-seccion{
+    display: block!important   ;    
+   }
